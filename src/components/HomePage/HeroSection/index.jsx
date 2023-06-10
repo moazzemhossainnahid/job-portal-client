@@ -14,28 +14,28 @@ const HeroSection = () => {
         {/* desktop */}
         <div className='relative hidden md:block'>
           {/* Shaps */}
-          <div className=' absolute top-44 z-50'>
+          <div className=' absolute top-44 z-10'>
             <Image src={Left_Shap} alt='Shap' />
           </div>
 
-          <div className='flex max-w-7xl px-5 mx-auto items-center'>
+          <div className='flex max-w-7xl px-5 z-30 mx-auto items-center'>
             <div className='w-2/3 relative pl-5 md:pl-0'>
-              <Link href='/' className=' absolute -top-72'>
+              <Link href='/' className='absolute -top-72'>
                 <Image src={Logo} alt='logo' height={50} />
               </Link>
               <div className=' absolute top-16 left-[180px]'>
                 <Image src={Marker} alt='Shap' height={18} />
               </div>
-              <div className='h-[100px] w-[100px] rounded-full bg-green-700  opacity-25 absolute -top-28 left-[250px]'></div>
-              <h1 className='text-5xl font-semibold leading-relaxed z-10 mb-10 '>
-                We find the best <br /> jobs for you{' '}
+              <div className='h-[100px] w-[100px] rounded-full bg-green-700 opacity-25 absolute -top-28 left-[250px]'></div>
+              <h1 className='text-5xl font-semibold leading-relaxed mb-10 '>
+                Wij vinden de beste <br /> banen voor jou{' '}
               </h1>
-              <p className='text-gray-400 text-normal font-medium leading-loose'>
-                Fill your job in hours, not weeks. Search for free.
+              <p className='text-gray-400 w-full md:w-4/5 text-normal font-medium leading-loose'>
+                Welkom bij [Naam van uw uitzendbureau] in de zorg! Wij zijn een betrouwbare partner die gespecialiseerd is in het leveren van hoogwaardig personeel voor de zorgsector.
               </p>
               <div className='relative'>
-                <p className='text-gray-600 text-normal font-medium leading-loose'>
-                  Popular Searches: Data Scientist, UX design{' '}
+                <p className='text-gray-600 w-full md:w-4/5 text-normal font-medium leading-loose'>
+                  Met trots bieden wij een breed scala aan gekwalificeerde professionals, variërend van verpleegkundigen tot agogen, begeleiders, toezichthouders en beveiligingspersoneel.{' '}
                 </p>
                 <div className='h-[150px] w-[150px] rounded-full bg-green-700  opacity-25 absolute top-28 left-[30px]'></div>
                 <div className='h-[200px] w-[200px] rounded-full bg-[#FFD75D] absolute  opacity-50 top-56 left-[450px]'></div>
@@ -65,7 +65,7 @@ const HeroSection = () => {
             </Link>
           </div>
           <div className=''>
-            <Image src={Hero_Section} alt='Hero Image' />
+            <Image className='mix-blend-multiply' src={Hero_Section} alt='Hero Image' />
           </div>
 
           {/* Shaps */}
@@ -73,17 +73,17 @@ const HeroSection = () => {
           <div className='h-[200px] w-[200px] rounded-full bg-[#FFD75D]  opacity-50 absolute  bottom-80 -left-[50px]'></div>
           <div className='h-[150px] w-[150px] rounded-full bg-green-700  absolute  opacity-50 top-64 right-[5px]'></div>
 
-          <div className='  mx-auto absolute top-20 '>
+          <div className='mx-auto absolute top-20 '>
             <div className=' pl-5 md:pl-0'>
               <h1 className='text-3xl font-semibold leading-relaxed z-10 mb-8 '>
-                We find the best <br /> jobs for you{' '}
+                Wij vinden de beste <br /> banen voor jou{' '}
               </h1>
-              <p className='text-gray-500 text-normal font-medium leading-loose'>
-                Fill your job in hours, not weeks. Search for free.
+              <p className='text-gray-600 text-normal font-medium leading-loose'>
+                Welkom bij [Naam van uw uitzendbureau] in de zorg! Wij zijn een betrouwbare partner die gespecialiseerd is in het leveren van hoogwaardig personeel voor de zorgsector.
               </p>
               <div className='relative'>
-                <p className='text-gray-700 text-normal font-medium leading-loose'>
-                  Popular Searches: Data Scientist, UX design{' '}
+                <p className='text-gray-900 text-normal font-medium leading-loose'>
+                  Met trots bieden wij een breed scala aan gekwalificeerde professionals, variërend van verpleegkundigen tot agogen, begeleiders, toezichthouders en beveiligingspersoneel.{' '}
                 </p>
               </div>
             </div>
