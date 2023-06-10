@@ -20,7 +20,7 @@ const HeroSection = () => {
 
           <div className='flex max-w-7xl px-5 z-30 mx-auto items-center'>
             <div className='w-2/3 relative pl-5 md:pl-0'>
-              <Link href='/' className='absolute -top-72'>
+              <Link href='/' className='absolute -top-64'>
                 <Image src={Logo} alt='logo' height={50} />
               </Link>
               <div className=' absolute top-16 left-[180px]'>
